@@ -22,6 +22,7 @@ y, sr = librosa.load(filename)
 # http://www.wikihow.com/Install-FFmpeg-on-Windows
 
 # 문제는 내장된 파일에서 있었던 것으로 보인다. y, sr = librosa.load('a2002011001-e02.wav') 로 시도 성공.
+# Bach Werke Verzeichni 1001-1006 이라는걸 방금 들었음. 
 
 # 3. Run the default beat tracker
 
