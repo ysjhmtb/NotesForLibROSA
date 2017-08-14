@@ -21,6 +21,7 @@ y, sr = librosa.load(filename)
 # 이 부분에서 audioread.NoBackendError 발생! FFmpeg를 설치해야 할 것 같다.
 # http://www.wikihow.com/Install-FFmpeg-on-Windows
 
+# 문제는 내장된 파일에서 있었던 것으로 보인다. y, sr = librosa.load('a2002011001-e02.wav') 로 시도 성공.
 
 # 3. Run the default beat tracker
 
